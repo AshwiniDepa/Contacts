@@ -1,0 +1,21 @@
+{
+  "name": "contacts",
+  "description": "done this project using html css and javascript",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  },
+  "authors": [
+    "Ashwini Depa"
+  ],
+  "private": true
+}
