@@ -2,6 +2,22 @@ body{
 	text-align:center;
 	padding-top:10px;
 }
-.img-small{
-	height:30px;
-	width:10px;
+img{
+	max-height:30px;
+	max-width:30px;
+}
+.search:hover{
+background-color:grey;
+border-color:solid grey;	
+}
+.input-characters{
+	display:inline;
+	color:skyblue;
+}
+.input-names li{
+	padding:20px;
+	text-color:sky blue;
+}
+.list-group-item li{
+	display:
+}

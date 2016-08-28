@@ -1,42 +1,79 @@
-<DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html>
     <head>
         <meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width" "intial-scale=1.0">
+		<link rel="stylesheet" href="C:\wamp\www\Todolist1\bower_components\bootstrap\dist\css\bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<title>Contacts</title>
 	</head>
 	<body>
-	    <input type="text" name="Search" placeholder="Search" value=""/>
-		<img class="img-small" src="img/search.jpg"/>
-		<input type="submit" class="input-button" value="search"/>
-		<select name="characters" class="input-characters" value="A-Z">
-		    <option value="A">A</option>
-			<option value="B">B</option>
-			<option value="C">C</option>
-			<option value="D">D</option>
-			<option value="E">E</option>
-			<option value="F">F</option>
-			<option value="G">G</option>
-			<option value="H">H</option>
-			<option value="I">I</option>
-			<option value="J">J</option>
-			<option value="K">K</option>
-			<option value="L">L</option>
-			<option value="M">M</option>
-			<option value="N">N</option>
-			<option value="O">O</option>
-			<option value="P">P</option>
-			<option value="Q">Q</option>
-			<option value="R">R</option>
-			<option value="S">S</option>
-			<option value="T">T</option>
-			<option value="U">U</option>
-			<option value="V">V</option>
-			<option value="W">W</option>
-			<option value="X">X</option>
-			<option value="Y">Y</option>
-			<option value="Z">Z</option>
-		</select> 
-		
+	    <form action="#" onsubmit="javascript:searchF(); return false;">
+	        <img src="img/search.jpg"/>
+	        <input type="text" class="search"  id="search" onchange="javascript:searchF()"; onkeyup="javascript:searchF();" placeholder="search" value=""/>
+		    <input type="submit" class="input-button" value="search"/>
+		    <select name="characters" class="input-characters" value="A-Z">
+		        <option value="A">A</option>
+				<option value="B">B</option>
+				<option value="C">C</option>
+				<option value="D">D</option>
+				<option value="E">E</option>
+				<option value="F">F</option>
+				<option value="G">G</option>
+				<option value="H">H</option>
+				<option value="I">I</option>
+				<option value="J">J</option>
+				<option value="K">K</option>
+				<option value="L">L</option>
+				<option value="M">M</option>
+				<option value="N">N</option>
+				<option value="O">O</option>
+				<option value="P">P</option>
+				<option value="Q">Q</option>
+				<option value="R">R</option>
+				<option value="S">S</option>
+				<option value="T">T</option>
+				<option value="U">U</option>
+				<option value="V">V</option>
+				<option value="W">W</option>
+				<option value="X">X</option>
+				<option value="Y">Y</option>
+				<option value="Z">Z</option>
+		    </select> 
+		</form>
+		<span>Contacts</span>
+	    <ul class="list-group" id="contacts">
+			<li class="list-group-item">Ashwini 9000564534</li>
+			<li class="list-group-item">Ankitha 897654321</li>
+			<li class="list-group-item">Bindhu 9856453423</li>
+			<li class="list-group-item">Bhavya 786546353</li>
+			<li class="list-group-item">Bhavitha 8767564533</li>
+			<li class="list-group-item">Chandana 7865676599</li>
+			<li class="list-group-item">Chethana 7865746577</li>
+			<li class="list-group-item">Deepa 8993456765</li>
+			<li class="list-group-item">Einkitha 8900345675</li>
+			<li class="list-group-item">Fouziya 8993456765</li>
+			<li class="list-group-item">Geetha 8993486765</li>
+			<li class="list-group-item">Harini 8993456765</li>
+			<li class="list-group-item">Irfan 8993456465</li>
+			<li class="list-group-item">Jessie 8993496765</li>
+			<li class="list-group-item">Kamala 8993456765</li>
+			<li class="list-group-item">Lohitha 8903456765</li>
+			<li class="list-group-item">Mounika 8093456765</li>
+			<li class="list-group-item">Niveditha 8993456765</li>
+			<li class="list-group-item">Oopiri 8993456765</li>
+			<li class="list-group-item">Pravallika 8993456765</li>
+			<li class="list-group-item">Quitub 8993456765</li>
+			<li class="list-group-item">Ravali 8992456765</li>
+			<li class="list-group-item">Sucharitha 8990256765</li>
+			<li class="list-group-item">Tulasi 8993456765</li>
+			<li class="list-group-item">Uday 8993456765</li>
+			<li class="list-group-item">veena 8993456765</li>
+			<li class="list-group-item">Westin 8993456765</li>
+			<li class="list-group-item">Xtree 8993456765</li>
+			<li class="list-group-item">yamini 8993456765</li>
+			<li class="list-group-item">Zareena 8993456765</li>
+		</ul>
+    <script type="text/javascript" src="js/main.js"></script>		
 	</body>
 </html>
