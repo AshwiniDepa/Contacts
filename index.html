@@ -3,14 +3,14 @@
     <head>
         <meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width" "intial-scale=1.0">
-		<link rel="stylesheet" href="C:\wamp\www\Todolist1\bower_components\bootstrap\dist\css\bootstrap.min.css">
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<title>Contacts</title>
 	</head>
 	<body>
-	    <form action="#" onsubmit="javascript:searchF(); return false;">
+	    <form action="#">
 	        <img src="img/search.jpg"/>
-	        <input type="text" class="search"  id="search" onchange="javascript:searchF()"; onkeyup="javascript:searchF();" placeholder="search" value=""/>
+	        <input type="text" class="search"  id="search" placeholder="search" value=""/>
 		    <input type="submit" class="input-button" value="search"/>
 		    <select name="characters" class="input-characters" value="A-Z">
 		        <option value="A">A</option>
@@ -74,6 +74,8 @@
 			<li class="list-group-item">yamini 8993456765</li>
 			<li class="list-group-item">Zareena 8993456765</li>
 		</ul>
-    <script type="text/javascript" src="js/main.js"></script>		
+		<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="json/data.json"></script>		
 	</body>
 </html>

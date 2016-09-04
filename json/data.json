@@ -1,0 +1,13 @@
+for(var i=0, l=$individualcontacts.length;i<l;i++) {
+			console.log($individualcontacts.eq(i),i,$individualcontacts.eq(i).text());
+			var thisTerm;
+			thisTerm=$individualcontacts.eq(i).text().toLowerCase();
+			console.log(thisTerm,"get");
+			if(thisTerm.indexOf(searchTerm)>-1){
+				console.log("Found");
+				$individualcontacts.eq(i).show();
+			} else {
+				console.log("Notfound");
+				$individualcontacts.eq(i).hide();
+			}	
+		}
