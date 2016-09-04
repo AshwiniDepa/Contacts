@@ -1,7 +1,6 @@
 (function($) {
 	'use strict';
-	function generate(data)
-	{
+	function generate(data) {
 		var html='';
 		for(var i=0,l=data.length; i<l; i++) {
 			html+='<li class="list-group-item">'+data[i].name+' '+data[i].number+'</li>';
@@ -45,44 +44,6 @@
 		$('#search').on('change keyup', function(){
 			searchF();
 		});
-	    generate([
-			{
-				"name": "Ashwini",
-				"number": "9000564534"
-			}, {
-				"name": "sucharitha",
-				"number": "8990256765"
-			}, {
-				"name": "Bindhu",
-				"number": "9856453423"
-			}, {
-				"name": "Bhavya",
-				"number": "786546353"
-			}, {
-				"name": "Chandana",
-				"number": "7865676599"
-			}, {
-				"name": "Chethana",
-				"number": "7865746577"
-			}, {
-				"name": "Deepa",
-				"number": "8993456765"
-			}, {
-				"name": "Einkitha",
-				"number": "8900345675"
-			}, {
-				"name": "Fouziya",
-				"number": "8993456765"
-			}, {
-				"name": "Geetha",
-				"number": "8993486765"
-			}, {
-				"name": "Harini",
-				"number": "8993456765"
-			}, { 
-			    "name": "Irfan",
-				"number": "8993456465"
-		    }
-		]);
+	   $.getJSON("json/data.json", generate);
 	});
 })(jQuery);
